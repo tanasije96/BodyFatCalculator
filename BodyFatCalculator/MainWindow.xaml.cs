@@ -11,14 +11,17 @@ using System.Windows.Shapes;
 
 namespace BodyFatCalculator
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+   
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Calculate_Click(object sender, RoutedEventArgs e)
+        {
+            ResultText.Text = "Button works!";
         }
     }
 }
